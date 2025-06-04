@@ -1,21 +1,16 @@
 public class Main {
     public static void main(String[] args) {
+        boolean a= true;
+        int b = 1 ;
 
-//        for (int i = 0; i < 5; i++) {
-//            System.out.println(i);
-//        }
+        while (a) {
+            System.out.println(b);
+            b++;
 
-        int i = 0;
-
-        while (i < 5) {
-            System.out.println(i);
-            i++;
+            if(b> 10000){
+                a = false;
+            }
         }
 
-//        do{
-//            System.out.println(i);
-//            i++;
-//        } while(i < 5);
     }
-
-    }
+}
